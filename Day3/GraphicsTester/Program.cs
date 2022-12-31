@@ -2,25 +2,30 @@
 
 internal class Program
 {
+    public static Point AccecptCoordinates()
+    {
+        return new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
+    }
     private static void Main(string[] args)
     {
-
-       SortedList<Int32, Shapes> shapesList =new SortedList<Int32, Shapes>();
+        SortedList<Int32, Shapes> shapesList = new SortedList<Int32, Shapes>();
         Point p1, p2, p3;
-        int choice,count =0;
+        int choice, count = 0;
 
         do
         {
-            Console.WriteLine("Enter choice to select Shape.\n1.Circle\n2.Triangle\n3.Rectangle\n4.Display all shapes\n5.Exit");
+            Console.WriteLine("Make a choice.\n1.Circle\n2.Triangle\n3.Rectangle\n4.Display all shapes\n5.Exit");
             choice = Convert.ToInt16(Console.ReadLine());
             switch (choice)
             {
                 case 1:
-                    Console.WriteLine("Enter the coordinate for Center of the circle and Point on the circle ");
-                    Console.WriteLine("Coordinate X and Y for Center of Circle");
-                    p1 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
-                    Console.WriteLine("Coordinate X and Y for Point on the Circle");
-                    p2 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
+                    Console.WriteLine("Enter two coordinate for Circle");
+                    Console.WriteLine("Enter x and y coordinates for center of Circle");
+                    p1 = AccecptCoordinates();
+
+                    Console.WriteLine("Enter x and y coordinates for any point on the Circle");
+                    p2 = AccecptCoordinates();
+
                     Shapes circle = new Circle(p1, p2);
                     count++;
                     shapesList.Add(count, circle);
@@ -29,12 +34,15 @@ internal class Program
 
                 case 2:
                     Console.WriteLine("Enter three coordinate for Triangle");
-                    Console.WriteLine("Coordinate X and Y for 1st Vertex on the Triangle");
-                    p1 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
-                    Console.WriteLine("Coordinate X and Y for 2nd Vertex on the Triangle");
-                    p2 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
-                    Console.WriteLine("Coordinate X and Y for 3rd Vertex on the Triangle");
-                    p3 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
+                    Console.WriteLine("Coordinate 1");
+                    p1 = AccecptCoordinates();
+
+                    Console.WriteLine("Coordinate 2");
+                    p2 = AccecptCoordinates();
+
+                    Console.WriteLine("Coordinate 3");
+                    p3 = AccecptCoordinates();
+
                     Shapes triangle = new Triangle(p1, p2, p3);
                     count++;
                     shapesList.Add(count, triangle);
@@ -43,12 +51,15 @@ internal class Program
 
                 case 3:
                     Console.WriteLine("Enter three coordinate for Rectangle");
-                    Console.WriteLine("Coordinate X and Y for 1st vertex on the Rectangle");
-                    p1 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
-                    Console.WriteLine("Coordinate X and Y for 2nd vertex on the Rectangle");
-                    p2 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
-                    Console.WriteLine("Coordinate X and Y for 3rd vertex on the Rectangle");
-                    p3 = new Point(Convert.ToInt16(Console.ReadLine()), Convert.ToInt16(Console.ReadLine()));
+                    Console.WriteLine("Coordinate 1");
+                    p1 = AccecptCoordinates();
+
+                    Console.WriteLine("Coordinate 1");
+                    p2 = AccecptCoordinates();
+
+                    Console.WriteLine("Coordinate 1");
+                    p3 = AccecptCoordinates();
+
                     Shapes rectangle = new Rectangle(p1, p2, p3);
                     count++;
                     shapesList.Add(count, rectangle);
@@ -56,9 +67,10 @@ internal class Program
                     break;
 
                 case 4:
-                 Console.WriteLine("Display all shapes");
-                 foreach(KeyValuePair<Int32, Shapes> s in shapesList){
-                        Console.WriteLine(s.Key + " " + s.Value);
+                    Console.WriteLine("Display all shapes");
+                    foreach (KeyValuePair<Int32, Shapes> s in shapesList)
+                    {
+                        Console.WriteLine(s.Key + ". " + s.Value);
                     }
                     break;
 
