@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l72PS8KNAn542PkTrD+Z7ndJ7+uEy/Y9ny1uxmiU4u1xE+k+mFCWeCoQ3eh0RJfkGt8NkciY+L65tarUQOlIAg==",
+  "dgSpecHash": "WRtByHpgnQIjfjFRG6VZz+ZwUx4HA1ca19mz8n3YVPnbSsDQDJOrDD5616ckCYuL1da20QUYtWCjlV4zxXpy2g==",
   "success": true,
-  "projectFilePath": "D:\\PrajwalSurajCDAC\\DOTNET\\Day3\\GraphicsTester\\GraphicsTester.csproj",
+  "projectFilePath": "D:\\PrajwalSurajCDAC\\DOTNET\\DotNet\\Day3\\GraphicsTester\\GraphicsTester.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
