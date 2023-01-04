@@ -10,3 +10,15 @@ D:\PrajwalSurajCDAC\DOTNET\DotNet\Day3\GraphicsLibrary\obj\Debug\net6.0\Graphics
 D:\PrajwalSurajCDAC\DOTNET\DotNet\Day3\GraphicsLibrary\obj\Debug\net6.0\refint\GraphicsLibrary.dll
 D:\PrajwalSurajCDAC\DOTNET\DotNet\Day3\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.pdb
 D:\PrajwalSurajCDAC\DOTNET\DotNet\Day3\GraphicsLibrary\obj\Debug\net6.0\ref\GraphicsLibrary.dll
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\bin\Debug\net6.0\GraphicsLibrary.deps.json
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\bin\Debug\net6.0\GraphicsLibrary.dll
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\bin\Debug\net6.0\GraphicsLibrary.pdb
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.csproj.AssemblyReference.cache
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.AssemblyInfoInputs.cache
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.AssemblyInfo.cs
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.csproj.CoreCompileInputs.cache
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.dll
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\refint\GraphicsLibrary.dll
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\GraphicsLibrary.pdb
+D:\PrajwalSurajCDAC\.NET\DotNet\Day3\GraphicsProject\GraphicsLibrary\obj\Debug\net6.0\ref\GraphicsLibrary.dll

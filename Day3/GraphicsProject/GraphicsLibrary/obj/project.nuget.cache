@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XlrhzQW2wDftw/u7XYPvpcLaG8RpUcOw9/9Tx9PT/t/1zzTJvS0cj/eavm5wyPPXxgmu1+wGE4igZ8c50ZbwBQ==",
+  "dgSpecHash": "llZJ3YOEk56t/OCnVO7LbCuwQHWcGR3CSJ36j97ruVkuAvY0YX6YphXgCb2rCop5k+4pRtzoZ39GVTYVFB0k/Q==",
   "success": true,
-  "projectFilePath": "D:\\PrajwalSurajCDAC\\DOTNET\\DotNet\\Day3\\GraphicsLibrary\\GraphicsLibrary.csproj",
+  "projectFilePath": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\Day3\\GraphicsProject\\GraphicsLibrary\\GraphicsLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
