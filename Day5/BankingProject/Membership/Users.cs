@@ -1,4 +1,5 @@
 using Account;
+using System.Text.Json.Serialization;
 namespace Membership;
 public class Users
 {
@@ -6,7 +7,11 @@ public class Users
     public string Email { get; set; }
     public string ContactNumber { get; set; }
     public BankAccount UserAccount{ get; set; }
+    
+    // public Users(){
 
+    // }
+   
     public Users(string username, string email, string contactnumber, BankAccount account)
     {
         UserName = username;

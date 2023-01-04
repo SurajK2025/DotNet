@@ -2,20 +2,18 @@ namespace Account;
 [Serializable]
 public class BankAccount
 {
-    private static int num = 50001;
     public int AccNo { set; get; }
     public int Balance { set; get; }
 
-    public BankAccount()
-    {
-        Balance = 0;
-        AccNo = 0;
-    }
-    public BankAccount(int balance)
+    // public BankAccount()
+    // {
+    //     Balance = 0;
+    //     AccNo = 0;
+    // }
+    public BankAccount(int balance, int accNo)
     {
         Balance = balance;
-        AccNo = num;
-        num++;
+        AccNo = accNo;
     }
 
     public override string ToString()
