@@ -32,7 +32,7 @@ class MainClass
             int receiver;
             string fileName = null;
             BankAccount account = null;
-            CurrentAccount curAcc = new CurrentAccount();
+            CurrentAccount curAcc = null;
             Console.WriteLine("Inside do while");
             do
             {

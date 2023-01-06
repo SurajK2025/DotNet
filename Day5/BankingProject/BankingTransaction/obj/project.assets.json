@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\Day5\\BankingProject\\BankingTransaction\\BankingTransaction.csproj",
+      "projectUniqueName": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\DotNet\\Day5\\BankingProject\\BankingTransaction\\BankingTransaction.csproj",
       "projectName": "BankingTransaction",
-      "projectPath": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\Day5\\BankingProject\\BankingTransaction\\BankingTransaction.csproj",
+      "projectPath": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\DotNet\\Day5\\BankingProject\\BankingTransaction\\BankingTransaction.csproj",
       "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-      "outputPath": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\Day5\\BankingProject\\BankingTransaction\\obj\\",
+      "outputPath": "D:\\PrajwalSurajCDAC\\.NET\\DotNet\\DotNet\\Day5\\BankingProject\\BankingTransaction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

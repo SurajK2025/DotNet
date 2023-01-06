@@ -2,7 +2,6 @@ namespace Account;
 public class CurrentAccount : BankAccount
 {
     public CurrentAccount(int balance, int accNo) : base(balance, accNo){}
-    public CurrentAccount(){}
     public override void Transactions(int amount,BankAccount accountTranfer)
     {
 
